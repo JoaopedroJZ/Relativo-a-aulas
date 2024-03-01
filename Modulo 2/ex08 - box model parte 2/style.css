@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(360deg, #4AE52F, #96E62E);
+    background-attachment: fixed;
+}
+
+.aula {
+    width: 650px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 7px 7px 5px #33a020c0;
+}
+
+.aula > p {
+    text-align: justify;
+    text-decoration: none;
+    font: normal 16px 'arial';
+}
+
+.aula > h1 {
+    color: #E6BA30;
+    font: normal 38px 'Times New Roman';
+}
+
+.aula > h2 {
+    font: normal 32px 'Times New Roman';
+    color: #E6D132;
+    text-align: left;
+}
+
+.aula:hover {
+    transition: all 0.2s ease-in-out;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #60b950c4;
+}
+
+.exemplo {
+    width: 300px;
+    margin: 40px 170px 20px 33px;
+    padding: 15px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 7px 7px 5px #33a020c0;
+}
+
+.exemplo2 {
+    margin: 20px 50px 20px 33px;
+    background-color: white;
+    padding: 15px;
+    width: 300px;
+}

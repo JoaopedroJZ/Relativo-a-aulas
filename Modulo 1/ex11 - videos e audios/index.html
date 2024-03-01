@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos e Audios</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>AULA 14</h1>
+    <hr>
+    <h2>audios</h2>
+    <p>para reproduzir um audio é colocando a tag <code>(audio)</code>, apague a parte de scr e coloque <code>(preload="metadata")</code> e ao lado você coloca as especificações como autoplay (tocar o audio automaticamente), controls (para mostrar os botões) e loop (para td vez que o audio acabar ele recomeçar), dentro da tag audio você coloca as tags <code>(source scr)</code> para adicionar, é bom também ter varios tipos de audio caso o navegador do cliente não tenha suporte para por exemplo mp3 e wav.</p>
+    <audio preload="metadata" controls loop>
+        <source src="OCK.mp3.mp3" type="audio/mp3">
+        <source src="OCK.mp3.m4a" type="audio/m4a">
+    </audio>
+    <p>seu código (só com um tipo de audio) deve ficar assim:</p>
+    <picture>
+        <img src="teste.jpeg" width="500" alt="a">
+    </picture>
+    <p>caso você tenha mais de um tipo de audio ele deve ficar assim:</p>
+    <picture>
+        <img src="teste2.jpeg" alt="a">
+    </picture>
+    <hr>
+    <h2>FORMATOS DE VÍDEOS</h2>
+    <p>é necessario que você tenha varios formatos de vídeos caso um não funcione (mp4, ogv e webm), você pode usar o programa HANDBRAKE que é gratuito pra isso.</p>
+    <h2>videos hospedados localmente</h2>
+    <p>esse vídeo ta hospedado no meu servidor, para isso coloque a tag video, apague a parte de <code>(src)</code> e depois coloque os videos dentro da tag <code>(video)</code> com a tag <code>(source src)</code></p>
+    <video controls width="500">
+        <source src="mp4.mp4" type="video/mp4">
+        <source src="webm.webm" type="video/webm">
+        <source src="mkv.mkv" type="video/mkv">
+    </video>
+    <p>seu código deve ficar <strong>assim:</strong></p>
+    <picture>
+        <img src="teste3.jpeg" alt="a">
+    </picture>
+    <p>assim como no audio você pode colocar algumas tags no video como controls, width, heigh, muted, poster (thumbnail) e autoplay</p>
+</body>
+</html>

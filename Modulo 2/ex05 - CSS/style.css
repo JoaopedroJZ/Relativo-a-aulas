@@ -1,0 +1,115 @@
+.aula {
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 4px  #064e4da9;
+}
+
+body {
+    background-image:linear-gradient(360deg, #015958, #008F8C);
+    background-attachment: fixed;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font: normal 36px 'Times New Roman';
+    background-color: #0f7c7c;;
+}
+
+.tópico {
+    color: #14a8a6d3;
+    text-align: center;
+    font: normal 28px 'Times New Roman';
+}
+
+.texto {
+    color: #000000d3;
+    text-align: justify;
+    font: normal 16px Arial;
+    text-indent: 5px;
+}
+
+.area1 {
+    background-color: white;
+    padding: 15px;
+    width: 400px;   
+    margin: auto;
+    border-radius: 15px
+}
+
+.area2 {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 400px; 
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+ul li:hover {
+    background-color: rgb(132, 202, 167);
+    font-size: 20px;
+}
+
+.area2:hover{
+    transition: all 1s ease-in-out;
+    background-color: rgb(90, 90, 199);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.area1:hover {
+    background-color: rgb(30, 253, 205);
+}
+
+.tópico:hover{
+    color: white;
+    background-color: #14a8a6d3;;
+}
+
+.imagem{
+    text-align: center;
+}
+
+.imagem:hover{
+    text-align: right;
+}
+
+.exemplo{
+    text-align: center;
+}
+
+.area1 > .xd {
+    display: none;
+}
+
+.area1:hover > .xd {
+    display: block;
+    color: rgb(236, 5, 5);
+}
+
+a {
+    color: #2d4646;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #396969;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.especial::before {
+    content: '‹ ';
+}
+
+.especial::after {
+    content: ' ›';
+}

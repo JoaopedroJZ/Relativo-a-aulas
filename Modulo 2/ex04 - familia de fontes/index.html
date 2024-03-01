@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Fontes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+    <h1>Aula Familia de Fontes com CSS</h1>
+    <hr>
+    <h2>Exercicio de fontes</h2>
+    <p>você vai criar um paragrafo com "<code>Lorem</code>", e vai utilizar de diversas fontes para teste, nem todo computador tem a fonte Arial, outras fontes substitutas para a arial é Verdana e Helvetica, para se utilizar de uma fonte, essa fonte precisa estar no seu computador, para adicionar uma fonte você pode baixa-la e registra-la no seu computador</p>
+    <br>
+    <h2>Estrutura da Tag</h2>
+    <p>a Tag Font Family tem 3 espaços para preencher, você coloca 3 fonte (da mesma familia), ele vai testar a primeira, depois a segunda e por fim a terceira, se caso a primeira não funcione ela vai utilizar a segunda.</p>
+    <br>
+    <h2>Safe Font Combinations</h2>
+    <p>a safe combination é você preencher os 3 espaços da "<code>font-family</code>" com todas as fontes sendo da mesma familia, para mais fontes "Safe" utilize deste <strong><a href="https://www.w3schools.com/cssref/css_websafe_fonts.php" rel="external" target="_blank"><strong>SITE</strong><img src="Chain link.png" alt="#" width="12px"></a></strong></p>
+    <br>
+    <h2>Tamanho de Fontes</h2>
+    <p>os Font Sizes, podem ser medidas por medidas absolutas e medidas relativas, CM e MM não é recomendado porque temos telas de tamanhos diferentes, também temos telas de quatro classificações de pixeis (telas retina), PT e PC não é recomendado em tela, pois são medidas de papel.</p>
+    <ul>
+    <li>Absolutas</li>
+        <ol>
+            <li>cm "centimetro"</li>
+            <li>mm "milimitro"</li>
+            <li>px "pixel"</li>
+            <li>in "polegada"</li>
+            <li>pt "ponto"</li>
+            <li>pc "paica"</li>
+        </ol>
+        <br>
+        <li>Relativas</li>
+        <ol>
+            <li>em "altura M maiuscula"</li>
+            <li>ex "altura X"</li>
+            <li>rem "altura M configurada do body"</li>
+            <li>vw "largura da viewport"</li>
+            <li>vh "altura  da viewport"</li>
+            <li>% "porcentagem"</li>
+        </ol>
+    </ul>
+    <p>as medidas mais recomendadas para utlizar são PX e EM, o tamanho padrão de uma fonte em pixeis é 16px, o EM é relativo ao tamanho natural, 1EM é 16px, 2EM é 32px e etc, é recomendado utilizar EM por conta das telas "Retina"</p>
+    <br>
+    <h2>ShortHand Font</h2>
+    <p>Um jeito simples de você colocar todas as informações e especificações de fonte que você quer com uma unica tag é a tag "<code>font</code>", onde você coloca primeiro o ESTILO da fonte, depois o PESO da fonte, depois o TAMANHO e por fim o a FAMILIA da fonte, <strong>EXEMPLO:</strong></p>
+    <p style="text-align: center;"><img src="exemplo.png" alt="#"></p>
+    <p>Ilalic é o ESTILO, Bolder é o PESO, 3em é o TAMANHO e sans-serif é a FAMILIA</p>
+    <br>
+    <h2>Google Fonts, Familia de Fontes Externas</h2>
+    <p>Google Fonts é um site para conseguir fontes que não tem em seu PC, la você pode pegar uma fonte que não está registrada no seu PC, e você pode coloca-la no seu site, o site é <a href="https://fonts.google.com" rel="external" target="_blank"><strong>ESSE</strong><img src="Chain link.png" alt="#" width="12px"></a>, para colocar uma fonte no seu site basta selecionar uma fonte e você pode ou baixar a fonte ou "importar" a fonte para seu site, pra isso você seleciona a familia e clica no @import.</p>
+    <br>
+    <h2>Como Baixar Fontes Externas</h2>
+    <p>caso sua a fonte que você precisa não esteja no google fonts você pode procurar no "<a href="https://www.dafont.com/pt/" rel="external" target="_blank"><strong>Dafont</strong><img src="Chain link.png" alt="#" width="12px"></a>", para baixar a fonte clique na fonte que você quer e clique em baixar, descopactue o .zip e coloque os arquivos no "servidor", e depois coloque no CSS "<code>@font-face</code>" e ele vai abrir duas tags de <code>Font-Family</code> e "<code>src url</code>", tem varios tipos de arquivos de fonte</p>
+    <ol>
+        <li>Opentype (otf)</li>
+        <li>Truetype (ttf)</li>
+        <li>embedded-opentype</li>
+        <li>truetype-aat (apple advanced typography)</li>
+        <li>svg</li>
+    </ol>
+    <p>depois de colocar o nome do arquivo na tag de "src url" você deve colocar ao lado do parenteses "format" e especificar o formato do arquivo da sua fonte, se caso sua fonte tenha dois formatos basta colocar outra tag de "url" e outra de "format"</p>
+    <p style="text-align: center;"><img src="exemplo1.png" alt="#"></p>
+    <br>
+    <h2>Como Pegar Fontes de outros Sites</h2>
+    <p>para saber uma fonte que foi utiliza em outro site, basta baixar uma extenção do seu navegador chamada "fonte ninja", e então você abre a extenção e a utiliza em sites, assim pegando as fontes de sites que você achou bonito.</p>
+    <br>
+    <h2>Fontes dentro de imagens</h2>
+    <p>para detectar fontes de imagens você pode usar os sites <a href="https://www.whatfontis.com" rel="external" target="_blank"><strong>WhatFont</strong><img src="Chain link.png" alt="#" width="12px"></a>, <a href="https://www.fontsquirrel.com" rel="external" target="_blank"><strong>FontSquirrel</strong><img src="Chain link.png" alt="#" width="12px"></a> e <a href="https://www.myfonts.com/pages/whatthefont"  rel="external" target="_blank"><strong>WhatTheFont</strong><img src="Chain link.png" alt="#" width="12px"></a>, para utilizar o "WhatFont" basta jogar a imagem no site e pronto (é bom lembrar que o site não tem 100% de precisão), a mesma coisa é para o "FontSquirrel" e para o "WhatTheFont"</p>
+    <hr>
+    <h2 style="font-family: potato; font-size: 38px;">Exercicio 1</h2>
+    <p style="font-family: potato;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quos quidem accusamus velit dolores aut iure soluta quasi tempora et aspernatur ipsam modi, fugit voluptate, atque magni! Accusamus, velit ducimus.</p>
+    <br>
+    <h2 style="font-family: komigo; font-size: 38px;">Exercicio 2</h2>
+    <p style="font-family: komigo; font-size: 1.7em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit neque, numquam laboriosam quod distinctio omnis dolores perspiciatis nihil incidunt alias quas repellendus voluptas rerum quae maxime sed ex asperiores corrupti!</p>
+    </main>
+</body>
+</html>

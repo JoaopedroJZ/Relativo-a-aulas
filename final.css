@@ -1,0 +1,177 @@
+    body {
+        background-image: linear-gradient(360deg, #25DFF5, #25F5C6);
+        background-attachment: fixed;
+    }
+
+    .kys {
+        margin: auto;
+        width: 1500px;
+        height: 1470px;
+        background-color: white;
+        padding: 2px 10px 7px 10px;
+        border: 1px solid #25F57E;
+        box-shadow: 7px 7px 10px 5px #1aa2b1b2; 
+    }
+
+    .kys > .cu > h1.yo {
+        text-align: center;
+        font: normal 40px 'times new roman';
+        background-color: #409b19b0;
+        color: #ffffff;
+        border-radius: 5px;
+        width: 500px;
+        margin: 20px 750px 20px 498px;
+        box-shadow: 3px 3px 7px 1px rgba(150, 145, 145, 0.404);
+        padding: 2px;
+    }
+
+    .kys > .seupai > .test > h2.lista {
+        text-align: center;
+        margin: 10px 20px 10px 20px;
+        font: normal 32px 'times new roman';
+        background-color: #409b19b0;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 3px 3px 7px 1px rgba(150, 145, 145, 0.411);
+        width: 230px;
+    }
+
+    .kys > .seupai > .test > h2.lista:before {
+        content: '→';
+    }
+
+    ul {
+        background-color: #409b19b0;
+        width: 190px;
+        margin: -5px 20px 10px 20px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 7px 1px rgba(150, 145, 145, 0.411);
+        height: 260px;
+        padding: 10px 0px 0px 40px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(34, 63, 37);
+    }
+
+    a:hover {
+        color: rgb(78, 78, 172);
+        text-decoration: underline;
+        text-align: justify;
+    }
+
+    ul li:hover {
+        font-size: 20px;
+        background-color: rgba(124, 228, 124, 0.822);
+    }
+
+    .test {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 5px 0px 10px 60px;
+    }
+
+    .teste2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 5px 0px 10px 60px;
+    }
+
+    .motivo {
+        text-align: center;
+        font: normal 40px 'times new roman';
+        background-color: #409b19b0;
+        color: #ffffff;
+        border-radius: 5px;
+        width: 500px;
+        margin: 50px 750px 20px 500px;
+        box-shadow: 3px 3px 7px 1px rgba(150, 145, 145, 0.411);
+    }
+
+    .motivos {
+        background-color: #409b19b0;
+        text-align: justify;
+        width: 500px;
+        margin: auto;
+        padding: 15px;
+        border: 2px solid rgb(87, 185, 92);
+        border-radius: 5px;
+        box-shadow: 3px 3px 7px 1px rgba(150, 145, 145, 0.411);
+        font: normal 16px 'arial';
+    }
+
+    .kys:hover {
+        transition: all 1s linear;
+        border-radius: 10px;
+
+    }
+
+    .JS > .yo {
+        text-align: center;
+        font: normal 40px 'times new roman';
+        background-color: #409b19b0;
+        color: #ffffff;
+        border-radius: 5px;
+        width: 500px;
+        margin: 30px 750px 20px 498px;
+        box-shadow: 3px 3px 7px 1px rgba(150, 145, 145, 0.411);
+    }
+
+    hr {
+        margin-top: 40px;
+    }
+
+    .aulasJS > .lista {
+        text-align: center;
+        margin: 30px 20px 10px 621px;
+        font: normal 32px 'times new roman';
+        background-color: #409b19b0;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 3px 3px 7px 1px rgba(150, 145, 145, 0.411);
+        width: 230px;
+    }
+
+    .aulasJS {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .listaaula {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .parte1 {
+        margin: 10px 5px 10px 498px;
+    }
+
+    .parte2 {
+        margin-top: 10px;
+    }
+
+    .seupai {
+        background-color: rgb(206, 241, 206);
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 30px;
+        margin-top: -5px;
+    }
+
+    .seupai2 {
+        background-color: rgb(206, 241, 206);
+        border-radius: 0px 0px 10px 10px;
+        margin-top: -5px;
+        margin: auto;
+    }
+
+    .cu {
+        background-color: rgb(206, 241, 206);
+        border-radius: 10px 10px 0px 0px; 
+        padding: 2px;
+    }   
+

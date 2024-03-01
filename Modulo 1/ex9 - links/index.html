@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <style>
+        p {
+            font-size: medium;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>AULA 12</h1>
+    <hr>
+    <h2>LINKS EXTERNOS</h2>
+    <p>para colocar um link externo basta coloca a tag <strong>"a href="</strong> <br>um <ins>exemplo</ins> é: <br>você pode acessar esse  <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=30">curso</a> <br>isso é um link que vai <strong>SOBREPOR</strong> o seu site, para conseguir fazer um redirect de link sem que você saia do site siga as instruções</p>
+    <img src="4.jpeg" alt="aaa" width="800" height="75">
+    <p><ins>exemplo</ins> na pratica: <br> clique <a href="https://www.youtube.com/watch?v=jxBWf7k_mwE" target="_blank" rel="external">aqui</a></p>
+    <p>a diferença entre os códigos esta logo abaixo: <br>sendo esse oque faz a sobreposição</p>
+    <img src="1.jpeg" alt="jjj">
+    <p>e esse oque <strong>NÃO</strong> faz a sobreposição</p>
+    <img src="4.jpeg" alt="a">
+    <p>basicamente o código que deve ser usado dentro da tag "a" é (<code><strong>target="_blank" rel="external"</strong></code>)</p>
+    <hr>
+    <h1>AULA 12 PARTE 2</h1>
+    <h2>LINKS INTERNOS</h2>
+    <p>link interno é a relação entre uma outra pagina que esta dentro do nosso servidor e que diz respeito a nossa pagina <br>pra fazer isso basta na tag <strong>"a"</strong> colocar seu arquivo ao invés de um link <br>exemplo: <br><a href="pag2.html" rel="next">link interno</a> <br>exemplificação visual:</p>
+    <img src="5.jpeg" alt="aa">
+    <p>é recomendado você usar a tag <strong>"rel=next"</strong> para a proxima pagina do seu site e a <strong>"rel=prev"</strong> para sua pagina anterior <br> exemplificação visual:</p>
+    <img src="6.jpeg" alt="aa">
+    <p>você também pode utilizar a tag <strong>"rel=nofollow"</strong> para links de "patrocinio" <br>exemplo visual:</p>
+    <img src="7.jpeg" alt="aa">
+    <p>uma coisa importante caso você vá fazer links que vão e voltam de pastas dentro do servidor, na hora que você entra em uma pasta por exemplo, <br> você redirecionou o seu site para outro site e você quer que esse site volte para o outro site que estava antes, você deve colocar antes do arquivo <strong><big>"../"</big></strong> pois assim ele VOLTA uma pasta</p>
+    <hr>
+    <h1>AULA 12 PARTE 3</h1>
+    <h2>LINKS PARA DOWNLOAD</h2>
+    <p>para fazer um link para download basta você colocar o arquivo no servidor e na href colocar o arquivo que você quer baixar e o depois do href coloque (<code>download="arquivo"</code>), junto da tag download você deve colocar a tag (<code>rel="application/X</code>), no lugar do X você coloca o tipo do arquivo</p>
+    <ul>
+        <li><a href="livros/guia.pdf" download="guia.pdf" rel="application/pdf">TESTE</a></li>
+        <li><a href="livros/favicon_io.zip" download="favicon_io.zip" rel="application/zip">TESTE DOIS</a></li>
+    </ul>
+    <p>exemplo de código:      
+    </p>
+    <img src="8.jpeg" alt="aa" width="500">
+</body>
+</html>

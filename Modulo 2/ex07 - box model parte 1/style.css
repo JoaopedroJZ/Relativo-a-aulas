@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(180deg, #617339, #39803A, #578A3F);
+    background-attachment: fixed;
+}
+
+.aula {
+    width: 650px;
+    margin: auto;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px #1f4720b4;
+    background-color: white;
+}
+
+.aula > h1 {
+    text-align: center;
+    font: normal 38px 'times new roman';
+    color: #807839;
+}
+
+.aula > h2 {
+    text-align: center;
+    font: normal 32px 'times new roman';
+    color: #8B893E;
+}
+
+.aula > p {
+    text-align: justify;
+    font: normal 16px 'arial';
+    text-indent: 10px;
+}
+
+.aula > h2:hover {
+    transition: all 1s ease-in-out;
+    color: white;
+    background-color: #8B893E;
+}
+
+.aula > h1:hover {
+    transition: all 1s ease-in-out;
+    color: white;
+    background-color: #807839;
+}
+
+.exemplo1 {
+    margin-top: 100px;
+    background-color: white;
+    padding: 15px;
+    width: 300px;
+}
+
+.exemplo1 > p {
+    width: 200px;
+    text-align: justify;
+}
+
+.exemplo1 > a {
+    text-decoration: none;
+    padding: 5px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.exemplo1:hover {
+    transition: all 0.5s ease-in-out;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 10px;
+}
+
+.image {
+    margin-left: 170px;
+    margin-top: 40px;
+    margin-right: 170px;
+    margin-bottom: 10px;
+    margin: 40px 170px 10px 170px;
+}

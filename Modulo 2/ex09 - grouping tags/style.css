@@ -1,0 +1,110 @@
+main {
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 7px 7px 12px 5px rgba(52, 102, 102, 0.452);
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(360deg, cyan, rgb(101, 172, 172));
+}
+
+header {
+    text-align: center;
+    background-color: rgb(78, 202, 202);
+    color: white;
+    width: 300px;
+    margin: 10px 10px 20px 195px;
+    padding: 2px;
+    border-radius: 4px;
+    font: normal 'times new roman';
+}
+
+article {
+    text-align: justify;
+    font: normal 1em 'arial';
+
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(66, 122, 122);
+    box-shadow: 2px 2px 7px 1px rgba(139, 139, 139, 0.705);
+}
+
+nav > a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+article > h2 {
+    background-color: rgb(78, 202, 202);
+    color: white;
+    width: 300px;
+    padding: 3px;
+    text-align: center;
+    margin: 20px 10px 30px 190px;
+    border-radius: 5px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+section {
+    background-color: rgba(125, 173, 173, 0.466);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+p {
+    text-indent: 10px;
+}
+
+div > p {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font: normal 1em arial;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.segundo {
+    margin-top: 10px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+ul li:hover {
+    background-color: rgb(122, 179, 179);
+    font-size: 18px;
+}
+ol li:hover {
+    background-color: rgb(122, 179, 179);
+    font-size: 18px;
+}
+
+.terceiro {
+    margin-top: 10px;
+}
+
+.quarto {
+    margin-top: 10px;
+}
+

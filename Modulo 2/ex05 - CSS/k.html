@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula CSS+</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="aula">
+        <h1 class="titulo">Aula de CSS+</h1>
+        <hr>
+        <h2 class="tópico">Tipos de Alinhamentos</h2>
+        <p class="texto">existem 3 tipos de alinhamentos, CENTRO, DIREITA e ESQUERDA. antigamente para colocar um texto centralizado bastava utilizar tag "<code>CENTER</code>", porém essa é uma tag obsoleta. o jeito certo é ir no CSS e colocar a tag "<code>Text-allign</code>". outro tag de posição é o "<code>text-indent</code>", que é basicamente o espaço que você da ao escrever um "paragrafo".</p>
+        <br>
+        <h2 class="tópico">Seletores Class/ID</h2>
+        <p class="texto">o CLASS e ID servem para diferenciar um h2 de outro h2 por exemplo, você quer um h2 vermelho e outro h2 verde, para isso você coloca uma class pra cada um então você vai no CSS e coloca .nomedaclass e coloca suas especificações, o ID é a mesma coisa mas ao invés de usar .nomedoID use "tagutilizada#nomedoID"</p>
+        <ul>
+            <li>tudo que em HTML é ID vira #</li>
+            <li>tudo que em HTML é CLASS vira .</li>
+        </ul>
+        <p class="texto">a diferença entre CLASS e ID é que o ID só pode ser usado em uma unica tag, o class você pode usar em diversas tags, você pode usar o CLASS e ID na mesma tag</p>
+        <br>
+        <h2 class="tópico">Pseudo Classes</h2>
+        <p>uma DIV é algo que vai ocupar de ponta a ponta do site, isso nas configurações padrões, você pode configurar o tamanho, borda, transição, altura, largura e etc. como foi dito acima existe a #=ID e o .=CLASS, oque representa as pseudoclasses são os dois ponto ou ":", as pseudoclasses devem estar sempre relacionadas a algum estado de tag/classe/ID, no caso você deve colocar <strong>".NOMEDACLASSE:PSEUDOCLASSE"</strong>, exemplo: </p>
+        <p class="imagem"><img src="exemplo.jpeg" alt="#"></p>
+        <p>basicamente, a pseudoclasse selecionada "hover" ela indica que enquanto eu estiver com o cursor "SOBRE/HOVER" o tópico, ele vai ficar com a cor BRANCA e com fundo CIANO, ou seja, nas pseudoclasses você configurar o estado dos elementos/tags. em baixo do conteudo da aula temos mais exemplos. </p>
+        <br>
+        <h2 class="tópico">Personalizando Links</h2>
+        <p>temos algumas pseudo classes nos links, que são visited e non-visited que no caso é que se caso você tenha visitado o link ele vai ficar de tal tipo e se caso não tenha visitado o link ele vai ficar diferente, para tirar o sublinhado do link basta colocar "text-decoration none", o pseudoclasse "ACTIVE" é quando você pressiona alguma coisa com seu mouse, o "after" siginifica depois do elemento e "before" significa antes do elemento, qual a diferença entre pseudoclasse e pseudoelemento? eles mexem diretamente no conteudo (ou seja qualquer coisa)</p>
+        <ul>
+            <li><a href="https://www.youtube.com/results?search_query=curso+em+video" target="_blank" rel="external">Youtube do Curso</a></li>
+            <li class="especial"><a href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-02/ex020/index.html" target="_blank" rel="external">Github do Curso</a></li>
+            <li><a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank" rel="external">Site do Curso</a></li>
+        </ul>
+        <p>oque aprendemos com a aula?</p>
+        <ul>
+            <li># = ID</li>
+            <li>: = PSEUDO-CLASS</li>
+            <li>. = CLASS</li>
+            <li>:: = PSEUDO-ELEMENT</li>
+            <li>> = CHILDREN</li>
+        </ul>
+    </main>
+    <br>
+    <div class="area1">EXEMPLO DE HOVER 1 <br>
+        PASSE O MOUSE AQUI PARA VER ALGO OCULTO
+        <p class="xd">OCULTO</p>
+        <p class="exemplo"><img src="exemplo3.jpeg" alt="#"></p>
+    </div>
+    <div class="area2"><p>EXEMPLO DE HOVER 2</p>
+    <p class="exemplo"><img src="exemplo2.jpeg" alt="#"></p></div>
+</body>
+</html>

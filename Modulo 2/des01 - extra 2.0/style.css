@@ -1,0 +1,231 @@
+:root {
+    --cor1: #84E1AD;
+    --cor2: #1B5E39;
+    --cor3: #286644;
+    --cor4: #C5EBD6;
+    --fonte: bold 36px 'arial';
+}
+
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'batata';
+    src: url('fontes/idroid.otf') format('OpenType');
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(360deg, #1A5C38, #3BD27F);
+    max-width: 2560px;
+    min-width: 410px;
+    padding: 15px;
+    color: white;
+    
+}
+
+header > h1 {
+    margin-bottom: 20px;
+    font: bold 3em 'Bebas Neue', 'cursive';
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
+}
+
+header > p {
+    padding: 10px;
+    text-align: center;
+    font: normal 1em 'arial';
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.459);
+    max-width: 500px;
+    margin: auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 13px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: 'arial';
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
+    transition-duration: 0.7s;
+}
+
+nav {
+    background-color: #1B5E39;
+    padding: 7px 7px 15px 7px;
+}
+
+nav > a:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #64a782;
+    border-radius: 5px;
+    color: var(--cor2);
+    padding: 7px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 850px;
+    min-width: 420px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.411);
+}
+
+article > h1 {
+    font: normal 32px 'batata';
+    color: #175A36;
+    margin-left: 10px;
+    padding: 12px 10px 10px 10px;
+}
+
+article > p {
+    text-indent: 20px;
+    text-align: justify;
+    font: normal 18px 'arial';
+    margin: 8px 0px 15px 0px;
+    padding: 10px 15px;
+    line-height: 2em;
+}
+
+article > h2 {
+    margin-top: 20px;
+    font: bold 28px 'batata';
+    color: #175A36;
+    background-image: linear-gradient(90deg, #D1EFDF, white);
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.imagem {
+    display: block;
+    margin: auto;
+}
+
+article > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'arial';
+    color: #286644;
+}
+
+article > p > a:hover {
+    background-color: #b2ddc6;
+    padding: 1px;
+}
+
+.x {
+    color: #175A36;
+}
+
+
+
+aside {
+    margin: auto;
+    max-width: 780px;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
+}
+
+.um {
+    background-color: #2FA866;
+    padding: 8px;
+    max-width: 780px;
+    min-width: 200px;
+    margin: auto;
+    color: white;
+    font: bold 18px 'arial';
+    border-radius: 10px 10px 0px 0px;
+}
+
+.dois {
+    padding: 8px;
+    background-color: #C5EBD6;
+    max-width: 780px;
+    min-width: 200px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font: normal 15px 'arial';
+    border-radius: 0px 0px 10px 10px;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+ul {
+    columns: 2;
+    list-style-type: '\2714';   
+    list-style-position: inside;
+}
+
+.dois > p {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+main > p {
+    text-indent: 20px;
+    text-align: justify;
+    font: normal 16px 'arial';
+    margin: 10px;
+    padding: 8px;
+}
+
+.dois > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'arial';
+    color: #286644;
+}
+
+.dois > p > a:hover {
+    background-color: #b2ddc6;
+    padding: 1px;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: rgb(228, 228, 228);
+    padding: 4px;
+    text-align: center;
+}
+
+strong {
+    color: white;
+}
+
+aside a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'arial';
+    color: #286644;
+}
+
+aside a:hover {
+    background-color: #8cb39f;
+    padding: 1px;
+}
+
+div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div {
+    max-width: 850px;
+    min-width: 365px;
+    background-color: #175A36;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 50%;
+}

@@ -1,0 +1,14 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: inherit;
+}
+
+h2 {
+    background-color: rgba(201, 183, 104, 0.596);
+    color: white;
+}
+
+body {
+    background-color: rgb(213, 228, 158);
+}
+

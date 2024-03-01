@@ -1,0 +1,57 @@
+
+main {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 7px 5px #1e300e91;
+    margin: auto;
+    width: 650px;
+}
+
+body {
+    background-image: linear-gradient(180deg, #3B7302, #294013);
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #265902;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #4B5936;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: justify;
+    color: #8f877d;
+    font: normal 18px 'Arial', 'Sans-Serif';
+}
+
+a:hover {
+    color: blue;
+}
+
+a {
+    color: #615c55;
+    background-color: #5f5b5371;
+}
+
+li {
+    color: #867f75;
+    text-align: justify;
+    font: normal 20px 'Times New Roman';
+}
+
+@font-face {
+    font-family: 'Potato';
+    src: url('Super Potato Personal Use.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Komigo';
+    src: url('Komigo3D-Regular.ttf') format('truetype');
+}
+

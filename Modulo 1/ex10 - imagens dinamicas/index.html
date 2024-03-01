@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+    <style>
+        p {
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <h1>AULA 13</h1>
+    <hr>
+    <h2>Adaptação de material, Imagens Dinâmicas</h2>
+    <p>todo seu conteudo tem que se adaptar ao tamanho de tela por ex, tv, pc e celular, é importante que você diminua as imagens em editores para diminuir o tamanho do arquivo para assim ter um site mais rapido, e não um site lento. <br>o tamanho normal para celular é 300x300, o de pc é 1000x1000 e o tablet é 700x700. <br>existe uma tag especifica para carregar imagens especificas para dispositivos especificos e essa tag se chama (<code>picture</code>), e também é importante que você coloque a tag chamada (<code>sourse media</code>)</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="#">
+    </picture>
+    <p>seu código <strong>deve</strong> ficar assim:</p>
+    <img src="imagens/exemplo.jpeg" alt="">
+    <p>obviamente mudando o <code>(type)</code> e o <code>(max-width)</code> dependendo do tamanho e tipo da imagem, algo que esqueci de mencionar é que você deve mudar o <code>(min-width)</code> para <code>(max-width)</code> <br>você também deve deixar os sources de imagens de <ins><strong>MENOR</strong></ins> pra <ins><strong>MAIOR</strong></ins></p>
+    <hr>
+    <a href="pagina2.html" rel="next" target="_self">hihiha</a>
+    <p>esse é o <a href="https://www.youtube.com/watch?v=cAgkwPWE4hU&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=33" rel="external" target="_blank">vídeo</a> a qual você viu para fazer o exercicio</p>
+</body>
+</html>

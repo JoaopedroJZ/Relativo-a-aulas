@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Box</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
+<body>  
+    <main>
+        <header><h1>Aula de Grouping</h1>
+        </header>
+        <nav>
+            <a href="#">XXXX</a>
+            <a href="#">XXXX</a>
+            <a href="#">XXXX</a>
+            <a href="#">XXXX</a>
+        </nav>
+        <hr>
+        <section class="primeiro">
+            <article>
+                <h2>tags semanticas</h2>
+                <p>você pode criar tags semanticas, que no caso são tags que são basicamente divs sóq semanticas que no caso são header, divs, nav, section, footer e article.</p>
+                <ul>
+                    <li>header = cabeçario</li>
+                    <li>div = divisão/sessão</li>
+                    <li>nav = area de navegação/menu</li>
+                    <li>section = sessão</li>
+                    <li>footer = créditos/desenvolvido por</li>
+                    <li>article = assunto/noticia</li>
+                </ul>
+                <p>isso facilita a recomendação do seu site e também a organização do mesmo. exemplo:</p>
+                <div>
+                    <p><img src="exemplo.jpeg" alt="#" width="500px" height="300px"></p>
+                </div>
+                <p>isso é o seu código de forma semantica</p>
+            </article>
+        </section>
+        <section class="segundo">
+            <article>
+                <h2>Sombras</h2>
+                <p>uma coisa importante é que você não precisa exagerar nas sombras, você pode ir ao devtools/inspecionar e criar a sombra por la e depois basta copiar e colar a tag. a tag box shadow segue a seguinte ordem:</p>
+                <ol>
+                   <li>espaçamento pro lado</li>
+                   <li>espaçamento pra baixo</li>
+                   <li>blur (pode não ser utilizado)</li>
+                   <li>espalhamento</li>
+                </ol>
+                <p>para colocar sombra em letras basta colocar text-shadow, você também pode fazer uma fonte INTERNA, basta colocar INSET no box shadow.</p>
+            </article>
+        </section>
+        <section class="terceiro">
+            <article>
+                <h2>Arredondamento de Caixas</h2>
+                <p>a Tag utilizada para arredondar as "caixas" é border-radius, assim como as outras tags o border radius tem 4 especificações, top, right, bottom e left. é bom lembrar que também é possivel se utilizar de porcentagem no border radius.</p>
+            </article>
+        </section>
+        <section class="quarto">
+            <article>
+                <h2>Bordas Personalizadas</h2>
+                <p>você pode fazer bordas em programas como photoshop, gimp e qualquer programa de edição de imagem, para isso você deve criar um arquivo 80x80, depois de ter feito sua borda coloque o arquivo da borda no servidor,  depois coloque uma tag de <code>"border-image-scource"</code>, depois uma de <code>"border-image-slice"</code> e por fim <code>"border-image-repeat"</code>, o shorthand dessas tags é <code>"border-image"</code>. também é necessario uma configuração da tag <code>"border"</code> para se utilizar da borda personalizada.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por João</p>
+    </footer>
+</body>
+</html>

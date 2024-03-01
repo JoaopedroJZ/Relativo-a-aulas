@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradiant</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <style>
+        *{
+            height: auto;
+        }
+
+        body {
+            background-image: linear-gradient(45deg, #E123E5, #F071B4, #FB0B62, #F78495, #F2B71F);
+            background-attachment: fixed;
+        }
+        p {
+            text-align: start;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h1>testando degrades</h1>
+    <hr>
+    <h2>tag pra degrade</h2>
+    <p>vá no body (style) e coloque <code>"background-image"</code> na configuração de linear gradient e coloque a direção que você quer que va o degrade (exemplo: to right) e depois uma virgula uma cor virgula e outra cor, para deixar um degrade fixo coloque também a tag <code>"background-attachment"</code> no comando fixed (aindo no body)</p>
+    <picture>
+        <source media="(max-width: 1050px)" srcset="ICONEAAA.jpg" type="image/jpg">
+        <img src="1.jpeg" alt="#">
+    </picture>
+    <hr>
+    <h2>comando global</h2>
+    <p>o "*" no CSS é uma tag global para se colocar altura das coisas e etc</p>
+    <img src="2.jpeg" alt="#">
+    <p>Obs: o atual deste site esta em auto (automatica)</p>
+    <hr>
+    <h2>degrade circular</h2>
+    <p>você também pode usar outra tag chamada <code>"radial-gradient"</code> e colocar na tag circle, assim tendo um degrade de circulo</p>
+    <img src="nengue.jpeg" alt="#">
+</body>
+</html>
