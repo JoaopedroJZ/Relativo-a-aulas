@@ -27,6 +27,7 @@ header {
     padding: 18px;
     max-width: 2560px;
     min-width: 400px;
+    letter-spacing: 2px;
 }
 
 header p {
