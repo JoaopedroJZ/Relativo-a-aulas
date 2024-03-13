@@ -17,8 +17,7 @@
 }
 
 body {
-    background-repeat: repeat;
-    background-image: url(imagens/wallpaper004.jpg);
+    background: black url('imagens/wallpaper004.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -26,7 +25,7 @@ header {
     background-image: linear-gradient(360deg, var(--corbackground), var(--corbackground2));
     padding: 18px;
     max-width: 2560px;
-    min-width: 400px;
+    min-width: 393px;
     letter-spacing: 2px;
 }
 
@@ -88,7 +87,7 @@ article ul {
     columns: 2;
 }  
 
-li::before {
+ul li::before {
     content: '.';
 }
 
@@ -174,4 +173,20 @@ div.linha {
     max-width: 2560px;
     min-width: 400px;
     display: block;
+}
+
+article ol {
+    font: var(--fontetexto);
+    background-color: var(--corfundotext);
+    padding: 5px;
+    padding-left: 20px;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    columns: 2;
+    list-style-position: inside;
+}  
+
+li:hover {
+    font-size: 1.3em;
+    background-color: #758f8f;
 }
