@@ -55,9 +55,17 @@
                 <li>Attachment</li>
             </ol>
             <p><strong>Obs:</strong>O background-size não é aceitado na shorthand, então ela fica na mesma ordem só que sem o size.</p>
+            <h1>Alinhamento de Caixas</h1>
+            <p>a maneira mais pratica de colocar uma caixa na area do meio, basta você coloca <code>"margin: auto"</code> porém desse jeito você não pode colocar a caixa no MEIO no sentido de altura, apenas em larura, para isso você coloca a tag naquilo que você ta contendo (exemplo: você quer colocar um fundo pra um video em iframe) <code>"position: relative"</code> e no conteudo que esta DENTRO você usa <code>"position: absolute"</code> assim você pode mudar o lugar do conteudo que esta DENTRO com as tags top, right, left e bottom. as especificações são baseadas NA PONTA a qual você colocou a especicação sendo então, se você colocar top e right o ponto de referencia vai ser O CANTO DO TOP RIGHT, se você colocar left bottom ele vai estar sem relação ao left bottom, para mudar esse "ponto de referencia" para o meio você deve usar <code>"transform: translate"</code> (uma tag de transformação serve para você mexer em qualquer "caixa" aplicando alguma alteração de transformação nela) e você coloca ela nas especificações de "-50%, -50%", isso vai fazer com que o "ponto referencial" va para o MEIO.  <br> <br> <strong>OBS:</strong>As posições são "invertidas" se você colocar 50% ele vai ir para BAIXO, e se você colocar 50% bottom ele vai para CIMA</p>
         </article>
     </main>
+
     <div class="linha"></div>
+    <h1 class="ex">AREA DE EXEMPLOS</h1>
+    <div class="position">
+         <div class="inside">
+         </div>
+        </div>
     <div class="quadrado" id="X"></div>
     <div class="quadrado" id="X2"></div>
     <div class="quadrado" id="X3"></div>
