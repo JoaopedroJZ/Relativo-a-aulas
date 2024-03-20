@@ -6,9 +6,14 @@
     margin: 0px;
 }
 
+body {
+    min-height: 100vh;
+}
+
 header h1 {
     font: bold 3em 'arial';
     margin-bottom: 10px;
+    font-variant: small-caps;
 }
 
 header p {
@@ -19,6 +24,8 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    max-width: 2560px;
+    min-width: 344px;
     padding: 50px;
 }
 
@@ -37,19 +44,40 @@ footer {
     text-align: center;
     color: white;
     padding: 10px;
+    max-width: 2560px;
+    min-width: 410px;
 }
 
 footer a {
     text-decoration: none;
     font-weight: bold;
     color: white;
+    max-width: 2560px;
+    min-width: 410px;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
 section p {
-    line-height: 1.3em;
-    margin: 20px;
+    line-height: 2em;
+}   
+
+section.imagem > p {
+    background-color: #121A0E;
+    color: white;
+    width: 400px;
+    padding: 5px;
+
+}
+
+section.imagem {
+    background-color: rgb(124, 92, 155);
 }
