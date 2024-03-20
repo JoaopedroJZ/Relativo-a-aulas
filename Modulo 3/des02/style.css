@@ -1,23 +1,28 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+:root {
+    --fonte1: 'Passion One', 'cursive';
+    --fonte2: 'Sriracha', 'cursive';
 }
 
 * {
     margin: 0px;
 }
 
+
 body {
     min-height: 100vh;
 }
 
 header h1 {
-    font: bold 3em 'arial';
     margin-bottom: 10px;
     font-variant: small-caps;
+    font: bold 8vw var(--fonte1);
 }
 
 header p {
-    font: normal 16px 'arial';
+    font: normal 16px 'Verdana';
 }
 
 header {
@@ -46,6 +51,7 @@ footer {
     padding: 10px;
     max-width: 2560px;
     min-width: 410px;
+    font: normal 16px 'Verdana';
 }
 
 footer a {
@@ -54,6 +60,7 @@ footer a {
     color: white;
     max-width: 2560px;
     min-width: 410px;
+    font: normal 16px 'Verdana';
 }
 
 footer a:hover {
@@ -63,21 +70,45 @@ footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
 }
 
 section p {
     line-height: 2em;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 1.2px;
 }   
 
 section.imagem > p {
-    background-color: #121A0E;
+    background-color: #46444446;
     color: white;
-    width: 400px;
-    padding: 5px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
 
 }
 
-section.imagem {
-    background-color: rgb(124, 92, 155);
+section#dois { 
+    background: black url(imagens/background002.jpg) top left no-repeat fixed;
+    background-size: cover;
+    max-width: 2560px;
+    min-width: 400px;
+    box-shadow: inset 2px 2px 8px 1px rgba(0, 0, 0, 0.473);
+}
+
+section#um {
+    background: black url(imagens/background001.jpg) top left no-repeat fixed;
+    background-size: cover;
+    max-width: 2560px;
+    min-width: 400px;
+    box-shadow: inset 2px 2px 8px 1px rgba(0, 0, 0, 0.473);
+}
+
+section.normal {
+    padding-left: 10px;
+}
+
+p.Y {
+    margin-bottom: 20px;
 }
