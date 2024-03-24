@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -19,13 +20,44 @@
     </header>
     <main>
         <article>
+            <h1 class="first">
+                Tabelas HTML
+            </h1>
+            <p class="lista">
+                Para criar uma tabela crie uma tag chamada <code>"table"</code>, uma coisa importante antes de tudo é saber que todas as tabelas tem um hierarquia simples, a hierarquia de tabela simples é:
+            </p>
+            <ul>
+                <li>TABLE = TABELA</li>
+                <li>TABLE ROW "TR" = LINHA DE TABELA <br> <strong>(DENTRO DA TABLE)</strong></li>
+                <li>TABLE HEADER = CABEÇALHO DE TABELA <strong>(DENTRO DO TABLE ROW)</strong></li>
+                <li>TABLE DATA "TD" = DADO DE TABELA</li>
+            </ul>
             <h1>
-
+                Borda de Tabela
             </h1>
             <p>
-                
+                Coloque a tag <code>"border"</code> na tag de TD (table data), e então você vai ter uma "tabela", porém é recomendado você colocar na tag <code>"table"</code> outra tag chamada de <code>"border-collapse"</code> na classificação de "collapse", assim ela vai ficar juntinha como em uma tabela.
             </p>
+            <h1>Classificação das linhas</h1>
+            <p>Você pode classificar os TR (TABLE ROW) e os TD (TABLE DATA), para destacar informações e areas especificas da tabela.</p>
         </article>
     </main>
+    <table>
+        <tr>
+            <td class="seupai">a1</td>
+            <td>a2</td>
+            <td>a3</td>
+        </tr> 
+        <tr class="seucu">
+            <td>b1</td>
+            <td>b2</td>
+            <td>b3</td>
+        </tr>
+        <tr>
+            <td>c1</td>
+            <td>c2</td>
+            <td>c3</td>
+        </tr>
+    </table>
 </body>
 </html>
