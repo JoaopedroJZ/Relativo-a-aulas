@@ -96,6 +96,7 @@ ul {
     font-size: 1.1em;
     background-color: #7bacb4;
     padding: 1px;
+    transition: all .3s ease-in-out;
 }
 
 li::before {
@@ -104,6 +105,7 @@ li::before {
 
 li {
     padding-top: 5px;
+    transition-duration: .3s;
 }
 
 table {
@@ -118,12 +120,18 @@ table {
 
 table td {
     border: 1px solid black;
+    background-color: #adb5b8;
+    height: 100px;
 }
 
 td.seupai {
     background-color: yellow;
+    vertical-align: top;
+    text-align: center;
 }
 
 tr.seucu {
     background-color: rgb(173, 147, 112);
+    vertical-align: bottom;
+    text-align: right;
 }
