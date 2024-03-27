@@ -46,6 +46,12 @@
             <p>
                Para alinhar tabelas você pode utilizar <code>"Text-allign"</code> e especificar alguma posição isso é seu alinhamento orizontal, então como fazer um alinhamento horizontal? use <code>"vertical-allign"</code> o padrão do vertical allign é MIDDLE, diferente do text allign que é LEFT ou CENTER. 
             </p>
+            <h1>
+                Tabelas Grandes
+            </h1>
+            <p>
+                A anatomia de uma tabela grande é basicamente, THEAD, TBODY e TFOOT. area da cabeça, area do corpo e area do rodapé, dentro de todas essas tags você pode usar também TD, TR e TH. A estrutura da tabela é algo extremamente importante de seguir, normalmente no thead é utilizado TH's para organizar melhor afinal algo que esta no cabeçario normalmente não é um dado e sim uma informação. <strong>DICA: Caso for fazer alguma tabela pequena continue fazendo ela com thead, tbody e tfoot, pois assim você treina sua semântica.</strong>
+            </p>
         </article>
     </main>
     <table>
@@ -64,6 +70,54 @@
             <td>c2</td>
             <td>c3</td>
         </tr>
+    </table>
+    <table class="tabela">
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="number">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="number">7 678 821</td>
+            </tr>
+            <tr class="cidade">
+                <td>Gravataí</td>
+                <td class="number">154 378</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="number">8 456 267 </td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="number">15 267 510 </td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="number">7 458 102 </td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="number">12 434 714 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>
+                Total de Habitantes
+            </th>
+            <td>
+                <strong>
+                    46 841 248
+                </strong>
+            </td>
+        </tfoot>
     </table>
 </body>
 </html>

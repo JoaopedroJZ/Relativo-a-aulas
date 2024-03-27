@@ -110,7 +110,6 @@ li {
 
 table {
     margin-top: 200px;
-    background-color: white;
     font-family: 'arial';
     border: 1px solid black;
     width: 400px;
@@ -120,8 +119,6 @@ table {
 
 table td {
     border: 1px solid black;
-    background-color: #adb5b8;
-    height: 100px;
 }
 
 td.seupai {
@@ -132,6 +129,42 @@ td.seupai {
 
 tr.seucu {
     background-color: rgb(173, 147, 112);
-    vertical-align: bottom;
+    vertical-align: middle;
     text-align: right;
+}
+
+td.number {
+    text-align: right;
+}
+
+td {
+    text-align: center;
+}
+
+thead {
+    background-color: #2C858D;
+    color: white;
+}
+
+tfoot {
+    background-color: #2C858D;
+    color: white;
+}
+
+tbody tr.cidade {
+    background-color: #33db00;
+    text-decoration: underline;
+}
+
+tbody {
+    background-color: gray;
+}
+
+th {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+td, th, tr {
+    padding: 5px;
 }
