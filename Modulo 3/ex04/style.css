@@ -157,7 +157,7 @@ tbody tr.cidade {
 }
 
 tbody {
-    background-color: gray;
+    background-color: rgb(201, 201, 201);
 }
 
 th {
@@ -167,4 +167,18 @@ th {
 
 td, th, tr {
     padding: 5px;
+}
+
+caption {
+    font: bold 24px 'arial';
+    background-color: rgb(170, 170, 170);
+    padding: 2px;
+}
+
+th.pop {
+    width: 25px;
+}
+
+th.est {
+    width: 250px;
 }

@@ -52,6 +52,13 @@
             <p>
                 A anatomia de uma tabela grande é basicamente, THEAD, TBODY e TFOOT. area da cabeça, area do corpo e area do rodapé, dentro de todas essas tags você pode usar também TD, TR e TH. A estrutura da tabela é algo extremamente importante de seguir, normalmente no thead é utilizado TH's para organizar melhor afinal algo que esta no cabeçario normalmente não é um dado e sim uma informação. <strong>DICA: Caso for fazer alguma tabela pequena continue fazendo ela com thead, tbody e tfoot, pois assim você treina sua semântica.</strong>
             </p>
+            <h1>"Legenda da Tabela"</h1>
+            <p>Caption nada mais é que uma legenda, ela vem antes do thead bem abaixo do table, você não pode colocar tr, td e th somente texto.</p>
+            <h1>Scope</h1>
+            <p>
+                Scope é aquilo que contextualiza onde/oque é as tags, se o TITULO esta do LADO ou em CIMA dos DADOS, sendo em cima <code>"Scope=col"</code> e do lado <code>"Scope=row"</code>, isso serve para deixar tudo mais SEMANTICO. Lmebrando que quanto mais semantico mais recomendado o seu site será.
+            </p>
+
         </article>
     </main>
     <table>
@@ -72,10 +79,13 @@
         </tr>
     </table>
     <table class="tabela">
+        <caption>
+            População dos Estados
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col" class="est">Estado</th>
+                <th scope="col" class="pop">População</th>
             </tr>
         </thead>
         <tbody>
@@ -109,7 +119,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>
+            <th scope="row">
                 Total de Habitantes
             </th>
             <td>
