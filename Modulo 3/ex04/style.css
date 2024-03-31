@@ -152,8 +152,7 @@ tfoot {
 }
 
 tbody tr.cidade {
-    background-color: #33db00;
-    text-decoration: underline;
+
 }
 
 tbody {
@@ -182,3 +181,8 @@ th.pop {
 th.est {
     width: 250px;
 }
+
+tbody tr:nth-child(2n) {
+    background-color: #67bbca;
+}
+
