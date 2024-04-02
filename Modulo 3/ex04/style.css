@@ -114,6 +114,7 @@ table {
     border: 1px solid black;
     width: 400px;
     border-collapse: collapse;
+    position: relative;
 }
 
 
@@ -151,9 +152,6 @@ tfoot {
     color: white;
 }
 
-tbody tr.cidade {
-
-}
 
 tbody {
     background-color: rgb(201, 201, 201);
@@ -186,3 +184,8 @@ tbody tr:nth-child(2n) {
     background-color: #67bbca;
 }
 
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: #2C858D;
+}
