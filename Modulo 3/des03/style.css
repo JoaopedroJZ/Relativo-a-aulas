@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+}
+
+table, tr, td {
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+img {
+    display: block;
+
+}
+
+table {
+    margin-bottom: 100px;
+    position: relative;
+}
+
