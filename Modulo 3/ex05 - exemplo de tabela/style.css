@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+}
+
+table, tr, td, th {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    opacity: 90%;
+}
+
+
+caption {
+    font: bold 2em 'arial';
+}
+
+table {
+    font: normal 16px 'arial';
+}
