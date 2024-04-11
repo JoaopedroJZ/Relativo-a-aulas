@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+* {
+    margin: 0px;
+    font-family: 'arial';
+}
+
+tr, th, td, table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th.um {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+td.number {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+table {
+    width: 500px;
+}
+
+th#left {
+    text-align: left;
+}
+
+td.sim {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
