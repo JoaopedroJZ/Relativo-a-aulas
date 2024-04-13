@@ -189,3 +189,7 @@ thead > tr > th {
     top: 0;
     background-color: #2C858D;
 }
+
+code {
+    font-weight: bolder;
+}

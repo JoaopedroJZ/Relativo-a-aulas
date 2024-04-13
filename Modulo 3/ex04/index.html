@@ -80,9 +80,15 @@
             <p>
                 O "colgroup" ou "rowgroup" são utilizados quando um TH ocupa mais de um span, no caso se você tem um titulo pra definir 3 dados na mesma linha você utiliza esse código.
             </p>
+            <h1>Agrupamento de Colunas/Linhas</h1>
+            <p>
+                Se é pra modificar uma linha especifica é muito simples, porém o problema vem quando é uma COLUNA, você poderia ir em cada uma delas colocando uma class especifica, mas e se sua tabela tiver 500 linhas? pra fazer isso de maneira rapida basta você criar uma tag chamada "<code>colgroup</code>" a qual você cria dentro da tabela, la você coloca a tag COL e cada uma delas vai automaticamente vincular com as scopes que você colocou no TH <strong>EM ORDEM DE PRIMEIRO E ULTIMO A SER COLOCADO NO CÓDIGO</strong>, para separar cada uma dos cols basta você coloca uma class em cada col que você colocou dentro do colgroup, você também pode utilizar a regra do SPAN para aplicar a mesma class em duas ou mais colunas neste caso você coloca apenas a primeira col de coluna e segunda que seria a qual você quer colocar a mesma configuração você não precisa colocar. Simples facil e rápido <br>
+                <strong>NOTA: O mesmo vale para as linhas porém nesse caso você usa "rowgroup"</strong>
+            </p>
         </article>
     </main>
     <table>
+        
         <tr>
             <td class="seupai">a1</td>
             <td>a2</td>
