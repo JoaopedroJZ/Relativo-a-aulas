@@ -18,11 +18,9 @@
 }
 
 body {
-    background-image: url(../wallpaper004.jpg);
-    background-position: center center;
+    background: rgba(0, 0, 0, 0.678) url(../wallpaper004.jpg) no-repeat fixed center center;
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat
+    box-shadow: inset 3px 5px 7px rgba(34, 34, 34, 0.253)
 }
 
 header h1 {
@@ -192,4 +190,9 @@ thead > tr > th {
 
 code {
     font-weight: bolder;
+}
+
+code:hover {
+    font-size: 20px;
+    transition: all .5s ease-in-out;
 }
