@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+}
+
+table {
+    font-family: 'arial';
+    border: 1px solid black;
+    width: 400px;
+    border-collapse: collapse;
+    background-color: gray;
+}
+a {
+    position: sticky;
+    top: 0;
+    color: white;
+    opacity: 75%;
+    background-image: linear-gradient(180deg, black, gray);
+}
+
+main {
+    margin-top: 230px;
+}
