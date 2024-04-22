@@ -196,3 +196,14 @@ code:hover {
     font-size: 20px;
     transition: all .5s ease-in-out;
 }
+
+div > header {
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(360deg, #2C858D, #74CEB7);
+    height: 175px;
+}
+
+div > header:hover {
+    opacity: 75%;
+}
