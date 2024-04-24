@@ -73,3 +73,19 @@ article > p {
 h1.first {
     margin: 0px;
 } 
+
+iframe {
+    width: 520px;
+    display: block;
+    margin: auto;
+    height: 300px;
+}
+
+header {
+    position: sticky;
+    top: 0; 
+}
+
+header:hover {
+    opacity: 75%;
+}
