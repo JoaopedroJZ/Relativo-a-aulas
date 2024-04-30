@@ -75,10 +75,11 @@ h1.first {
 } 
 
 iframe {
-    width: 520px;
+    width: 275px;
     display: block;
     margin: auto;
-    height: 300px;
+    
+    height: 428px;
 }
 
 header {
@@ -88,4 +89,42 @@ header {
 
 header:hover {
     opacity: 75%;
+}
+
+ol {
+    background-color: var(--corfundotext);
+    text-align: justify;
+    font: normal 16px 'arial';
+    line-height: 1.3em;
+    padding-top: 7px;
+    columns: 2;
+    padding-left: 5px;
+    list-style-position: inside;
+}
+
+p.lista {
+    border-radius: 0px;
+}
+
+ol > li:hover {
+    font-size: 18px;
+    background-color: #6e9297;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 200px;
+}
+
+a:hover {
+    color: white;
+}
+
+iframe#nengue {
+    margin-top: 20px;
+    width: 275px;
+    height: 300px;
 }
