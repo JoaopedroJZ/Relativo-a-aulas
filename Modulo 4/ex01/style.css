@@ -87,9 +87,6 @@ header {
     top: 0; 
 }
 
-header:hover {
-    opacity: 75%;
-}
 
 ol {
     background-color: var(--corfundotext);
