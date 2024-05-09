@@ -67,7 +67,7 @@ article > p {
     text-align: justify;
     border-radius: 0px 0px 5px 5px;
     font: normal 16px 'arial';
-    line-height: 1.3em
+    line-height: 1.3em;
 }
 
 h1.first {
@@ -125,3 +125,14 @@ iframe#nengue {
     width: 275px;
     height: 300px;
 }
+
+footer { 
+    color: white;
+    background-color: black;
+    font: bold 8px arial;
+    padding: 7px;
+    margin-top: 30px;
+    text-align: center;
+    }
+
+
