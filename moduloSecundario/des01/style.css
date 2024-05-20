@@ -20,8 +20,8 @@ nav {
 
 main {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
@@ -57,16 +57,14 @@ section.uranio h1, .uranio p{
     margin-right: 10px;
 }
 
-section.uranio137 {
-    margin-bottom: 10px;
-}
+
 
 .uranio137 p {
-    margin: 8px 5px 10px 10px;
+    margin: 8px 5px 0px 10px;
 }
 
 .uranio p {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: 10px;
 }
 
@@ -83,4 +81,27 @@ section h1 {
     main {
         flex-direction: column;
     }
+}
+
+section.noname {
+    display: flex;
+}
+
+div {
+    display: flex;
+}
+
+
+@media (max-width: 500px) {
+    div {
+        flex-direction: column;
+    }
+}
+
+section#carbon {
+    background-color: rgb(170, 142, 197);
+}
+
+section#oxygen {
+    background-color: rgb(197, 117, 117);
 }
