@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+nav  a{
+    padding-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+div.um {
+    flex:5%;
+    padding: 20px;
+}
+
+div.dois {
+    flex: 40%;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+li {
+    padding-top: 20px;
+}

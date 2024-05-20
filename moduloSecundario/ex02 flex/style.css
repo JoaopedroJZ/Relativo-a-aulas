@@ -17,19 +17,19 @@
         height: 98vh;
         width: 98vw;
         background-color: rgb(65, 165, 165);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        column-gap: 10px;
+        flex-direction: row;
+        row-gap: 10px;
     }
 
     div.jooj {
         display: flex;
-        width: 200px;
-        background-color: rgb(36, 144, 177);
+        width: 100px;
+        background-color: rgb(0, 0, 0);
         height: 100px;
         border: 1px solid black;
-        justify-content: flex-end;
-        align-items: flex-end;
+        justify-content: center;
+        align-items: center;
     }
 
     div.oi {
@@ -46,6 +46,8 @@
         background-color: rgb(190, 60, 147);
     }
 
-    div#MINI {
-        align-self: flex-start;
+    @media (max-width: 400px) {
+        .field {
+            flex-direction: column;
+        }
     }
