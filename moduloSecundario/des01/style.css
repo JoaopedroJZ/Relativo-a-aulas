@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(185, 160, 128)
+}
+
+nav a {
+    padding-left: 10px;
+
+}
+
+nav {
+    background-color: rgb(218, 179, 131);
+    padding: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.uranio137 {
+    flex: 40%;
+    background-color: beige;
+    padding: 20px;
+}
+
+.uranio {
+    flex: 40%;
+    background-color: rgb(214, 214, 185);
+    padding: 20px;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.3em;
+}
+
+section.uranio137 h1{
+    margin-left: 10px;
+}
+
+section img{
+    display: block;
+    margin: auto;
+}
+
+
+section.uranio h1, .uranio p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section.uranio137 {
+    margin-bottom: 10px;
+}
+
+.uranio137 p {
+    margin: 8px 5px 10px 10px;
+}
+
+.uranio p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.uranio137 img {
+display: block;
+margin: auto;
+}
+
+section h1 {
+    font-family: 'arial';
+}
+
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+}

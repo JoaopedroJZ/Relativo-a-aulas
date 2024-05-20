@@ -18,13 +18,14 @@ main {
 }
 
 div.um {
-    flex:5%;
+    flex: 30%;
     padding: 20px;
 }
 
 div.dois {
     flex: 40%;
     padding: 20px;
+    height: 80vh;
 }
 
 @media (max-width: 700px) {
@@ -35,4 +36,32 @@ div.dois {
 
 li {
     padding-top: 20px;
+}
+
+div p {
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.3em
+}
+
+div.dois h1 {
+    margin-bottom: 5px;
+}
+
+header {
+    background-color: rgb(197, 194, 194);
+}
+
+nav {
+    background-color: rgb(185, 178, 168);
+    padding: 8px;
+}
+
+div.um {
+    background-color: rgb(226, 206, 206);
+
+}
+
+div.dois {
+    background-color: rgb(155, 163, 163);
 }
