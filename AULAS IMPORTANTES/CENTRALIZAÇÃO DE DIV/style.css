@@ -64,6 +64,7 @@ article > h1 {
     border-radius: 5px 5px 0px 0px;
     font: normal 24px 'arial';
     margin-top: 30px;
+    color: white;
 }
 
 article > p {
@@ -83,4 +84,18 @@ footer {
     padding: 7px;
     margin-top: 30px;
     text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(102, 101, 101);
+        transition-duration: .2s;
+       
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(29, 29, 235);
+        transition: all ease-in-out .2s;
+        
     }
