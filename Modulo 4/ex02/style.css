@@ -1,0 +1,99 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(360deg, var(--corbackground), var(--corbackground2));
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 2560px;
+    min-width: 400px;
+    letter-spacing: 2px;
+}
+
+body {
+    background: black url(../wallpaper004.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header h1{
+    font: bold 3em 'padrao';
+}
+
+header p {
+    font: bold 18px 'arial';
+}
+
+:root {
+    --corbackground: #2C858D;
+    --corbackground2: #74CEB7;
+    --bodybackground: #FFFFCB;
+    --corfundotext: #b9d8dd;
+    --corextra: #004056;
+    --fontetexto: normal 1em 'arial';
+}
+
+@font-face {
+    font-family: 'padrao';
+    src: url('../BebasNeue-Regular.ttf') format('TrueType');
+}
+
+section > h1 { 
+    background-image: linear-gradient(90deg, var(--corbackground), var(--corbackground2));
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 5px 5px 0px 0px;
+    font: normal 24px 'arial';
+    margin-top: 30px;
+    color: white;
+}
+
+section > p {
+    background-color: var(--corfundotext);
+    padding: 5px;
+    text-indent: 30px;
+    text-align: justify;
+    border-radius: 0px 0px 5px 5px;
+    font: normal 16px 'arial';
+    line-height: 1.3em;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+section#um {
+    flex: 10%;
+}
+
+section#dois {
+    flex: 50%;
+}
+
+
+section#tres {
+    flex: 50%;
+}
+
+section#quatro {
+    flex: 20%;
+}
+
+@media (max-width: 600px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
