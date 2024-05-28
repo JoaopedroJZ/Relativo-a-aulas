@@ -21,19 +21,22 @@
         <section class="content" id="dois">
             <h1>2. Como fazer um Formulario?</h1>
             <p>
-                Todo o formulario deve estar dentro de uma tag <code>"FORM"</code>, para fazer as "caixinhas" onde você preenche com nome, senha, data de nascimento e etc, basta você usar uma tag chama <code>"INPUT"</code>, o input tem MUITAS definições dentre elas para o NOME você utiliza o com a forma de <code>"INPUT type TEXT"</code> dentro dessa tag terá duas especifações, NAME e ID, lá você coloca oque você quer cobrar do usario seja NOME ou SOBRENOME.
+                Todo o formulario deve estar dentro de uma tag <code>"FORM"</code>, para fazer as "caixinhas" onde você preenche com nome, senha, data de nascimento e etc, basta você usar uma tag chama <code>"INPUT"</code>, o input tem MUITAS definições dentre elas para o NOME você utiliza o com a forma de <code>"INPUT type TEXT"</code> dentro dessa tag terá duas especificações, NAME e ID, lá você coloca oque você quer cobrar do usario seja NOME ou SOBRENOME. Como desligar o auto preenchimento do input? vá na tag "form" e coloque "autocomplete: off".
             </p>
         </section>
     </main>
     <div class="flex" id="div">
         <section class="content" id="tres">
-            <h1>3. Formato de envio</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quisquam provident veritatis repellat nisi ex doloremque ratione autem delectus distinctio. Quos maxime eius cumque minus laborum rerum sunt repellat qui!</p>
+            <h1>3. Label, Name e Id</h1>
+            <p>
+                O seu navegador é burro, ele não sabe diferenciar um SOBRENOME de um NOME pra isso utilizamos LABEL que é um identificador, em linguagens de programação isso é importante pois quando você ENVIA o dado ele vai ser identificado por Label, Name e Id. Sendo em PHP mais comum o Name e em javascript o ID. O label é basicamente uma etiqueta que vai identificar oque é oque dentro do seu formulario, sempre antes do input você vai colocar algo pra pessoa identificar oque ela vai colocar, utilizamos o label para o COMPUTADOR identificar que X texto é pra Y input e vice-verse, dentro da tag label tem uma especificação que é o <code>"for"</code> no for você coloca o ID ou o NAME, a importancia disso é identificar e facilitar para os navegadores.
+            </p>
         </section>
 
         <section class="content" id="quatro">
             <h1>4. Pra onde é enviado as informações?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at cupiditate perferendis saepe excepturi sunt, ratione corrupti cum rem iste aliquam fuga illum, voluptates alias atque nemo id quidem praesentium?</p>
+            <p>Normalmente se manda os dados para uma linguagem de programação sendo as duas mais comuns Java e PHP (backend), pra isso coloque um <code>"action"</code> no seu form no action você coloca o arquivo da linguagem que você estiver usando. </p>
+            
         </section>
     </div>
 

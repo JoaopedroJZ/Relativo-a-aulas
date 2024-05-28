@@ -67,7 +67,9 @@ section > p {
     flex-wrap: wrap;
     column-gap: 5px;
     padding: 12px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
+    background-color: white
+    ;
 }
 
 section#um {
@@ -84,7 +86,7 @@ section#tres {
 }
 
 section#quatro {
-    flex: 20%;
+    flex: 10%;
 }
 
 @media (max-width: 600px) {
