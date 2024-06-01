@@ -68,12 +68,11 @@ section > p {
     column-gap: 5px;
     padding: 12px;
     padding-bottom: 5px;
-    background-color: white
-    ;
+    background-color: white;
 }
 
 section#um {
-    flex: 10%;
+    flex: 6%;
 }
 
 section#dois {
@@ -82,11 +81,11 @@ section#dois {
 
 
 section#tres {
-    flex: 50%;
+    flex: 55%;
 }
 
 section#quatro {
-    flex: 10%;
+    flex: 17.5%;
 }
 
 @media (max-width: 600px) {
@@ -99,3 +98,12 @@ section#quatro {
     width: 0px;
     height: 0px;
 }
+
+section#cinco {
+    flex: 20%;
+}
+
+section#seis {
+    flex: 20%;
+}
+
