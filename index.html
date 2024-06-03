@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        table, tr, td, th {
+            border: 1px rgb(119, 106, 106) solid;
+    border-collapse: collapse;
+    padding: 5px;
+        }
+        thead th {
+            background-color: black;
+
+            color: white;
+        }
+
+        thead tr :nth-child(2n) {
+            background-color: rgb(255, 255, 255);
+            color: rgb(3, 3, 3);
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: rgb(156, 156, 156);
+        }
+
+        td {
+            text-align: center;
+        }
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            overflow-x: auto;
+        }
+        @media screen and (width <=500px) {
+            div {
+               justify-content: flex-start;
+            }
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>DIAS DE ESTUDO</caption>
+            <thead>
+                <tr>
+                    <th scope="
+                    col">Segunda</th>
+                    <th scope="col">Terça</th>
+                    <th scope="col">Quarta</th>
+                    <th scope="col">
+                        Quinta
+                    </th>
+                    <th scope="col">Sexta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        PORTUGUÊS
+                    </td>
+                    <td>
+                        HISTÓRIA
+                    </td>
+                    <td>
+                        GEOGRAFIA
+                    </td>
+                    <td>
+                        HISTÓRIA
+                    </td>
+                    <td>MATEMATICA</td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        BIOLOGIA
+                    </td>
+                    <td colspan="2">
+                        MATEMATICA
+                    </td>
+                    <td>
+                        BIOLOGIA
+                    </td>
+                    <td rowspan="1">
+                        LITERATURA
+                    </td>
+                    
+                </tr>   
+    
+                <tr>
+                    <td>
+                        LITERATURA
+                    </td>
+                    <td colspan="2">
+                        FISICA
+                    </td>
+                    <td colspan="2">QUIMICA</td>
+    
+                </tr>
+    
+            </tbody>
+        </table>  
+    </div>
+    
+</body>
+</html>
