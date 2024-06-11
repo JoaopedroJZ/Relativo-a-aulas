@@ -104,6 +104,10 @@ section#cinco {
 }
 
 section#seis {
-    flex: 20%;
+    flex: 50%;
+}
+
+section#sete {
+    flex: 30%;
 }
 
