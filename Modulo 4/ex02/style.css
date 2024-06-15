@@ -69,6 +69,7 @@ section > p {
     padding: 12px;
     padding-bottom: 5px;
     background-color: white;
+    padding-bottom: 20px;
 }
 
 section#um {
@@ -111,3 +112,7 @@ section#sete {
     flex: 30%;
 }
 
+
+section#oito {
+    flex: 56%;
+}

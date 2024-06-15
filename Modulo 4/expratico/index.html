@@ -23,8 +23,14 @@
     @media screen and (width <= 350px) {
         .Coisa > h1 {
             text-align: center;
-            background-color: rgb(89, 128, 161);
         }
+    }
+
+    .envio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 10px;
     }
 
         
@@ -34,7 +40,10 @@
     <div class="Coisa">
         <h1>Formulario Fodastico</h1>
         <form action="javascript.js" method="post" autocomplete="off">
-        
+            <fieldset>
+                <legend>Formulario Obrigatório</legend>
+            
+          
                 <p>
                     <Label for="INome">Nome</Label>
                     <input type="Name" name="Nome" id="INome" required size="15" placeholder="Nome" autocomplete="username">
@@ -42,32 +51,53 @@
                
                 <p>
                     <label for="ISobrenome">Sobrenome</label> <input type="Sobrenome" name="sobrenome" id="ISobrenome" required size="10" placeholder="Sobrenome" autocomplete="username">
-                </p>                
+                </p> 
+            
+        
+                              
                     <p>
                         <label for="Isenha">Senha</label>
                         <input type="password" name="Senha" id="Isenha" required minlength="8" maxlength="15" size="15" placeholder="Senha" autocomplete="current-password">
                     </p>
+                    
                     <p>
                         <label for="Imedia">Média</label>
                         <input type="number" name="Media" id="Imedia" maxlength="5" minlength="1" placeholder="0 a 10" size="8" max="10" min="0" step="0.1" required>
                     </p>
+
                     <p>
                         <label for="Idata">Mês</label>
                         <input type="month" required id="Idata" name="data" value="2024-06">
                     </p>
+
                     <p>
                         <label for="Idia">Dia</label>
                         <input type="date" name="dia" id="Idia" required value="2024-06-05"> 
                     </p>
+
                     <p>
                         <label for="Ihora">Hora</label>
                         <input type="time" name="hora" id="Ihora" required value="12:00">
                     </p>
-                <p>
-                    <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </p>
-            </form>   
+
+                    <p>
+                        <label for="Iemail">Email</label>
+                        <input type="email" name="email" id="Iemail" required placeholder="Usario@gmail.com" autocomplete="email">
+                    </p>
+
+                    <p>
+                        <label for="Itelefone">Telefone</label>
+                        <input type="tel" required minlength="9" placeholder="(XX) XX XXXX-XXXX" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+                    </p>
+                    <p class="envio">
+                        <input type="submit" value="Enviar" >
+                    <input type="reset" value="Limpar" >
+                </p>
+                
+            
+ 
+        </fieldset>
+    </form>   
     </div>
 </body>
 </html>
