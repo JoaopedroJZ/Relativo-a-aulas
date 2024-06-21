@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula pr</title>
+    <style>
+        @charset 'UTF-8';
+        * {
+            
+            margin: 0px;
+        }
+
+        .grande {
+            width: 100vw;
+            height: 90vh;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        h1 {
+            font: normal 30px  'arial';
+        }
+        div {
+            padding-right: 15px;
+            padding-left: 10px;
+        }
+        .envia {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="grande">
+        <h1>Formulario</h1>
+        <form action="javascript.js" method="post" autocomplete="off">
+            <fieldset>
+                <legend>Sexo</legend>
+                <div>
+
+                    <input type="Radio" name="sex" id="isex">
+                    <label for="isex">Masculino</label>
+                </div>
+                <div>
+                    <input type="Radio" name="sex" id="isex">
+                    <label for="isex">Feminino</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Checklist</legend>
+                <div class="thing">
+                    <input type="checkbox" id="checkbox" name="check">
+                    <label for="checkbox">Boxes</label>
+                    
+                </div>
+                <div class="thing">
+                     <input type="checkbox" id="checkbox" name="check">
+                    <label for="checkbox">Boxes</label>
+                </div>
+                <div class="thing">
+                    <input type="checkbox" id="checkbox" name="check">
+                   <label for="checkbox">Boxes</label>
+               </div>
+               <div class="thing">
+                <input type="checkbox" id="checkbox" name="check">
+               <label for="checkbox">Boxes</label>
+           </div>
+
+            </fieldset>
+            <div class="envia">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

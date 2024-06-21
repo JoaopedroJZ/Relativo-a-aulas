@@ -116,3 +116,11 @@ section#sete {
 section#oito {
     flex: 56%;
 }
+
+#nove {
+    flex: 20%;
+}
+
+#dez {
+    flex: 10%;
+}
