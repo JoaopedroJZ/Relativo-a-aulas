@@ -92,7 +92,22 @@
                 Esse será o ultimo video relacionado as tags INPUTS, temos um input de COR, para selecionar cores isso é util para selecionar alguma cor especifica, para deixar uma cor ja selecionada basta você colocar o value e o código daquela cor. temos o input range que é usado para escolher o nivel, sendo normalmente usado para nivel de satisfação, esse nivel vai de 0-100, para configurar o maximo e o minimo basta colocar MAX/MIN, para colocar algo ja selecionado basta colocar value e o numero que você quer que seja o padrão. temos o tipo file que você envia um arquivo, serve para anexar arquivos, é importante saber que para usar esse type é recomendado o uso do method "post"
             </p>
         </section>
+        
 
+    </div>
+
+    <div class="flex" id="div">
+        <section class="content" id="onze">
+            <h1>11. Sem ser inputs</h1>
+            <p>
+            Essas tags listadas podem ser usadas com o label. Select, o select basicamente é algo pra você escolher uma opção sem ser ratio ou checkbox, normalmente usados em estados, você coloca a tag select e dentro dela você coloca OPTIONS, lembrando que toda option deve ter seu VALUE e o select DEVE TER UM ID e NOME, em casos de varios estados você pode criar uma tag OPTGROUP que é um grupo de opções, no exemplo de estados seria interessante você usar ela e separa-los por regiões, por exemplo, você coloca varias opções e então você coloca elas dentro de um optgroup, no optgroup você coloca um label (só pra identificar) com o nome da região (isso atribuido a tag optgroup), para que ja venha selecionado uma determinada opção você coloca SELECTED, oque sites grande normalmente fazem é colocar um option com nome de "escolha" e colocar ele ja selecionado para indicar que o usario deve selecionar um estado. A mas meu estado não está na lista, simples use datalist, para isso crie um input text e na linha debaixo do input você coloca um datalist com os options doque o usario pode escrever (o optgroup também vale pra isso tudo), finalizando você deve colocar um id no datalist e colocar um atributo "LIST" no input e coloque o id do datalist lá. Para criar uma area de envio de mensagem você coloca um TEXTAREA, la você deve colocar que letra quebra a linha, o maximo de linha, e etc; é recomendado você usar o POST para textarea ja que o GET tem o maximo de 3000 bytes.
+            </p>
+        </section>
+
+        <section class="content" id="doze">
+            <h1>Content</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse dolore pariatur quidem iusto reiciendis deleniti consequatur velit nulla ducimus provident impedit, sed accusantium facere architecto, illo iure quia hic! Beatae.</p>
+        </section>
     </div>
 </body>
 </html>
